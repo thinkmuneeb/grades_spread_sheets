@@ -14,9 +14,7 @@
 
 02/10/2020:
     Problem:
-    1. add 
-
-    shayan, muneeb algo:
+    1. shayan, muneeb algo:
     max marks (93->100%)
     make peecentiles
     outliers nikal dein (upper, lower)
