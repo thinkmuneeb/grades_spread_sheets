@@ -1,3 +1,23 @@
+08/10/2020:
+    9PM: Main work:
+        * implement relative, k-means grading and compare them and share insights
+        * tips = gaps finding and gaps dealing.
+
+
+    Points:
+        * get relative rule and assign grades.
+        * the problem will be in gaps.
+        * find gaps heuristic function or DBI formula
+        * apply to evaluate
+
+        * find kmeans algo
+        * apply kmeans algo for grades
+        * evaluate clustering quality
+
+        * show results to sir.
+
+        * do literature review of last research paper. 
+
 13/09/2020:
     Problem
     1. get an excel sheet
@@ -27,6 +47,12 @@
 
 7 Oct 2020:
     10PM:
+        Progress:
+        I did some coding in python. I was trying to implement relative grading. Python skills were weak. So I will revise python in Sololearn app and code tomorrow IA.
+        
+        Thoughts:
+        0.  Sort on excel sheet. X concept in softdev.
+
         I = No grade 
         I want to apply these features. Now.
         1. grades_relative(marks_list, rule) #marks the list with grades.
@@ -45,3 +71,13 @@
 
         Later On:
         Load grades, rule from excel sheet or txt file.
+
+
+
+
+#Reference Code:
+def sort_marks_column(filename):
+    data = np.array([[5,2], [4,1], [3,6]])
+    data = data[data[:,0].argsort()]  # sort on column 0
+    print('data:')
+    print(data)
